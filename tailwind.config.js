@@ -3,6 +3,11 @@ module.exports = {
   content: ["./**/*.{html, css}"],
   theme: {
     extend: {
+      screens: {
+        lg: "1280px",
+        md: "792px",
+        sm: "320px",
+      },
       fontFamily: {
         Monteserrat: ["Monteserrat", "sans-serif"],
       },
